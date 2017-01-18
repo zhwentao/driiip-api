@@ -8,21 +8,22 @@
 package routers
 
 import (
-	"driiip-api/controllers"
+	"driiip-api/controllers/device"
+	"driiip-api/controllers/user"
 
 	"github.com/astaxie/beego"
 )
 
 func init() {
 	ns := beego.NewNamespace("/v1",
-		beego.NSNamespace("/object",
+		beego.NSNamespace("/device",
 			beego.NSInclude(
-				&controllers.ObjectController{},
+				&device.ObjectController{},
 			),
 		),
 		beego.NSNamespace("/user",
 			beego.NSInclude(
-				&controllers.UserController{},
+				&user.UserController{},
 			),
 		),
 	)
