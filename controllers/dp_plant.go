@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/logs"
 )
 
 // DpPlantController operations for DpPlant
@@ -125,6 +126,7 @@ func (c *DpPlantController) GetAll() {
 	} else {
 		c.Data["json"] = l
 	}
+	logs.Info("getAll")
 	c.ServeJSON()
 }
 

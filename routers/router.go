@@ -16,21 +16,24 @@ import (
 func init() {
 	ns := beego.NewNamespace("/v1",
 
-		beego.NSNamespace("/dp_monitor_log",
+		beego.NSNamespace("/dp_user_device",
 			beego.NSInclude(
-				&controllers.DpMonitorLogController{},
+				&controllers.DpUserDeviceController{},
 			),
 		),
-
+		beego.NSNamespace("/dp_user",
+			beego.NSInclude(
+				&controllers.DpUserController{},
+			),
+		),
 		beego.NSNamespace("/dp_plant",
 			beego.NSInclude(
 				&controllers.DpPlantController{},
 			),
 		),
-
-		beego.NSNamespace("/dp_user",
+		beego.NSNamespace("/dp_monitor_log",
 			beego.NSInclude(
-				&controllers.DpUserController{},
+				&controllers.DpMonitorLogController{},
 			),
 		),
 	)
