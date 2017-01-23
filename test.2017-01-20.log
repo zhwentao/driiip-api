@@ -1,0 +1,63 @@
+2017/01/20 08:32:25 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:32:25 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:32:29 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:32:29 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:32:37 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:32:37 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:32:39 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:32:39 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:33:36 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|    223.504µs|   match|[44m GET     [0m /v1/dp_plant   r:/v1/dp_plant/
+2017/01/20 08:37:28 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:37:28 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:38:32 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:38:32 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:38:34 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:38:34 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:38:37 [I] [dp_plant.go:21] In getOne
+2017/01/20 08:38:37 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|     189.09µs|   match|[46m POST    [0m /v1/dp_plant   r:/v1/dp_plant/
+2017/01/20 08:38:48 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:38:48 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:38:51 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:38:51 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:38:53 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:38:53 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:39:09 [I] [dp_plant.go:21] In getOne
+2017/01/20 08:39:09 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|     124.22µs|   match|[46m POST    [0m /v1/dp_plant   r:/v1/dp_plant/
+2017/01/20 08:51:50 [D] [server.go:2202] | 10.129.232.232|[43m 404 [0m|     307.27µs| nomatch|[46m POST    [0m /v1/dp_plan/1
+2017/01/20 08:52:16 [D] [server.go:2202] | 10.129.232.232|[43m 404 [0m|     139.24µs| nomatch|[46m POST    [0m /v1/dp_plan/getone/1
+2017/01/20 08:52:31 [D] [server.go:2202] | 10.129.232.232|[43m 404 [0m|    234.043µs| nomatch|[44m GET     [0m /v1/dp_plan/1
+2017/01/20 08:53:05 [D] [server.go:2202] | 10.129.232.232|[43m 404 [0m|    186.936µs| nomatch|[44m GET     [0m /v1/dp_plan/
+2017/01/20 08:53:13 [I] [dp_plant.go:22] getOne
+2017/01/20 08:53:13 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|    359.714µs|   match|[44m GET     [0m /v1/dp_plant/1   r:/v1/dp_plant/:id
+2017/01/20 08:53:41 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:53:41 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:53:43 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:53:43 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:53:57 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:53:57 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:54:00 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:54:00 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:54:01 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:54:01 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:54:02 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:54:02 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:54:09 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:54:09 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:54:11 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 08:54:11 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 08:54:15 [I] [dp_plant.go:23] getAll
+2017/01/20 08:54:15 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|    278.528µs|   match|[44m GET     [0m /v1/dp_plant/   r:/v1/dp_plant/
+2017/01/20 09:47:03 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 09:47:03 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 09:47:06 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 09:47:06 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 09:47:08 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 09:47:08 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 09:47:10 [I] [dp_plant.go:23] getAll
+2017/01/20 09:47:10 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|   1.351068ms|   match|[44m GET     [0m /v1/dp_plant/   r:/v1/dp_plant/
+2017/01/20 09:47:32 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 09:47:32 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 09:47:35 [I] [asm_amd64.s:2086] http server Running on http://:8080
+2017/01/20 09:47:35 [I] [asm_amd64.s:2086] Admin server Running on :8088
+2017/01/20 10:09:01 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|    213.337µs|   match|[44m GET     [0m /v1/dp_monitor_log   r:/v1/dp_monitor_log/
+2017/01/20 10:09:11 [D] [server.go:2202] | 10.129.232.232|[42m 200 [0m|    227.075µs|   match|[44m GET     [0m /v1/dp_monitor_log/id   r:/v1/dp_monitor_log/:id

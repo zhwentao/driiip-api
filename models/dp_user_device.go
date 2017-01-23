@@ -45,6 +45,16 @@ func GetDpUserDeviceById(id int) (v *DpUserDevice, err error) {
 	return nil, err
 }
 
+// GetDpUserDeviceByUid
+func GetDpUserDeviceByUid(uid uint) (v *DpUserDevice, err error) {
+	o := orm.NewOrm()
+	v = &DpUserDevice{Uid: uid}
+	if err = o.Read(v); err == nil {
+		return v, nil
+	}
+	return nil, err
+}
+
 // GetAllDpUserDevice retrieves all DpUserDevice matches certain condition. Returns empty list if
 // no records exist
 func GetAllDpUserDevice(query map[string]string, fields []string, sortby []string, order []string,
